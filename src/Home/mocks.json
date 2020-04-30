@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "name": "Las Vegas",
+    "saleoff": "50%",
+    "time": "Feb 2019",
+    "price": "$2,250",
+    "priceOriginal": "$4,2999",
+    "image": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/85/99/8599_v14.jpeg"
+  },
+  {
+    "id": "2",
+    "name": "Athen",
+    "saleoff": "55%",
+    "time": "Feb 2019",
+    "price": "$2,250",
+    "priceOriginal": "$4,2999",
+    "image": "https://wiki-travel.com.vn/uploads/post/myyen97-194308024344-du-lich-Athen.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Viet Nam",
+    "saleoff": "55%",
+    "time": "Feb 2019",
+    "price": "$2,250",
+    "priceOriginal": "$4,2999",
+    "image": "https://thoidai.com.vn/stores/news_dataimages/anh.khuong/042019/22/13/5716_43741bc4a6dd2ee5ba92c40b1289dbd1_zgby-1.jpg"
+  }
+]
