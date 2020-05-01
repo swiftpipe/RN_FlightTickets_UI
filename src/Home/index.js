@@ -24,7 +24,10 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import ListCard from './ListCard';
 import BackgroundCurve from '../components/BackgroundCurve';
+import {useNavigation} from '@react-navigation/native';
 const Home = () => {
+  const navigate = useNavigation();
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -52,9 +55,11 @@ const Home = () => {
                   style={styles.inputSearch}
                   value="New York Citi (JFK) "
                 />
-                <View style={styles.buttonSearch}>
+                <TouchableOpacity
+                  style={styles.buttonSearch}
+                  onPress={() => navigate.navigate('Watchlist')}>
                   <Feather name="search" color="gray" size={16} />
-                </View>
+                </TouchableOpacity>
               </View>
               <View style={styles.listBtn}>
                 <TouchableOpacity style={styles.button}>

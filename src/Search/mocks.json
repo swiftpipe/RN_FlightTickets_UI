@@ -1,0 +1,42 @@
+[
+  {
+    "price": "$4,159",
+    "priceOriginal": "$9,9999",
+    "time": "Feb 2019",
+    "airline": "Cathay Pacific",
+    "rating": "4.6",
+    "saleoff": "55"
+  },
+  {
+    "price": "$5,199",
+    "priceOriginal": "$6,9999",
+    "time": "Feb 2019",
+    "airline": "American Pacific",
+    "rating": "4.3",
+    "saleoff": "15"
+  },
+  {
+    "price": "$6,559",
+    "priceOriginal": "$7,9999",
+    "time": "Feb 2019",
+    "airline": "Jet Airways",
+    "rating": "4.6",
+    "saleoff": "55"
+  },
+  {
+    "price": "$4,159",
+    "priceOriginal": "$9,9999",
+    "time": "Feb 2019",
+    "airline": "Cathay Pacific",
+    "rating": "4.6",
+    "saleoff": "55"
+  },
+  {
+    "price": "$4,159",
+    "priceOriginal": "$9,9999",
+    "time": "Feb 2019",
+    "airline": "Cathay Pacific",
+    "rating": "4.6",
+    "saleoff": "55"
+  }
+]

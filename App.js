@@ -5,6 +5,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {View} from 'react-native';
 import Home from './src/Home';
 import Entypo from 'react-native-vector-icons/Entypo';
+import Search from './src/Search';
 const Tab = createBottomTabNavigator();
 
 const Blank = () => {
@@ -40,7 +41,7 @@ export default function App() {
           inactiveTintColor: '#464962',
         }}>
         <Tab.Screen name="Explore" component={Home} />
-        <Tab.Screen name="Watchlist" component={Blank} />
+        <Tab.Screen name="Watchlist" component={Search} />
         <Tab.Screen name="Detais" component={Blank} />
         <Tab.Screen name="Notification" component={Blank} />
       </Tab.Navigator>
